@@ -4,6 +4,7 @@ import CardContainer from "./components/CardComponents/CardContainer";
 import ImageThumbnail from "./components/HeaderComponents/ImageThumbnail";
 import HeaderContainer from "./components/HeaderComponents/HeaderContainer";
 import HeaderTitle from "./components/HeaderComponents/HeaderTitle";
+import HeaderContent from "./components/HeaderComponents/HeaderContent";
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
       <ImageThumbnail />
       <HeaderContainer />
       <HeaderTitle />
+      <HeaderContent />
     </div>
   );
 };
