@@ -11,23 +11,21 @@ import CardContent from "./components/CardComponents/CardContent";
 const App = () => {
   return (
     <div className="app">
-      {/* <HeaderContainer />
-      <ImageThumbnail />
-      <HeaderTitle />
-      <HeaderContent />
-      <CardContainer />
-      <CardBanner />  
-      <CardContent />  */}
-
-      <HeaderContainer>
+      <div className="thumb-box">
         <ImageThumbnail />
-        <HeaderTitle />
-        <HeaderContent />
-      </HeaderContainer>
-      <CardContainer>
-        <CardBanner />
-        <CardContent />
-      </CardContainer>
+      </div>
+      <div className="header-and-card">
+        <HeaderContainer>
+          <div className="title-content">
+            <HeaderTitle />
+            <HeaderContent />
+          </div>
+        </HeaderContainer>
+        <CardContainer>
+          <CardBanner />
+          <CardContent />
+        </CardContainer>
+      </div>
     </div>
   );
 };

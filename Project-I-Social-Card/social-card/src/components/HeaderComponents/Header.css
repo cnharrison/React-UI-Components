@@ -2,10 +2,18 @@
 
 .header-container {
     border: 1px solid red; 
-    display: flex;
+    display: flex; 
+}
+
+.header-title { 
+    border: 1px solid green; 
+    display: flex; 
+    max-width: 90%;
 }
 
 .lambda-thumb {
-    max-width: 35%;
+    max-width: 80%;
     object-fit: contain;
+    align-items: flex-start; 
 }
+

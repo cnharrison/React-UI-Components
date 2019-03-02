@@ -1,1 +1,12 @@
-/* All styles for your Card Components live here -- hoody hoo */
+/* All styles for your Card Components live here */
+
+.card-container { 
+    border: 1px solid blue; 
+    display: flex; 
+    flex-direction: column; 
+}
+
+.card-banner-img { 
+    max-width: 80%;
+    object-fit: contain;
+}
