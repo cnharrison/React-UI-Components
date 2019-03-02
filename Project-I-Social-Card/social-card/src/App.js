@@ -6,18 +6,28 @@ import HeaderTitle from "./components/HeaderComponents/HeaderTitle";
 import HeaderContent from "./components/HeaderComponents/HeaderContent";
 import CardContainer from "./components/CardComponents/CardContainer";
 import CardBanner from "./components/CardComponents/CardBanner";
-import CardContent from  "./components/CardComponents/CardContent";
+import CardContent from "./components/CardComponents/CardContent";
 
 const App = () => {
   return (
     <div>
+      {/* <HeaderContainer />
       <ImageThumbnail />
-      <HeaderContainer />
       <HeaderTitle />
       <HeaderContent />
       <CardContainer />
       <CardBanner />  
-      <CardContent /> 
+      <CardContent />  */}
+
+      <HeaderContainer>
+        <ImageThumbnail />
+        <HeaderTitle />
+        <HeaderContent />
+      </HeaderContainer>
+      <CardContainer>
+        <CardBanner />
+        <CardContent />
+      </CardContainer>
     </div>
   );
 };
