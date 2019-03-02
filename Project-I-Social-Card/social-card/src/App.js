@@ -10,7 +10,7 @@ import CardContent from "./components/CardComponents/CardContent";
 
 const App = () => {
   return (
-    <div>
+    <div className="app">
       {/* <HeaderContainer />
       <ImageThumbnail />
       <HeaderTitle />
