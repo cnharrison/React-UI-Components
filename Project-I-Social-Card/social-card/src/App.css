@@ -140,26 +140,37 @@ table {
     border-spacing: 0;
 }
 
+/* ennd css reset */ 
+
+html {
+  font-size: 62.5%;
+}
+
+p,h1,h2 { 
+  font-size: 1.4rem; 
+}
+
 .app {
-    width: 700px;
+    width: 630px;
     font-family: Arial, Helvetica, sans-serif;
     display: flex; 
+    padding-top: 1%;
 }
 
 .title-content {
-    border: 1px solid purple;
+    /* border: 1px solid purple; */
     display: flex;
     flex-direction: column;
 }
 
 .header-and-card {
-    border: 1px solid hotpink;
+    /* border: 1px solid hotpink; */
     display: flex;
     flex-direction: column;
 }
 
 .thumb-box {
-    border: 1px dotted black;
+    /* border: 1px dotted black; */
     display: flex;
     align-items: flex-start; 
     justify-content: center;

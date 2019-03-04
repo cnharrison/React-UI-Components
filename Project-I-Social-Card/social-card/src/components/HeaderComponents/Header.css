@@ -1,19 +1,29 @@
 /* All styles for your header Components live here */
 
 .header-container {
-    border: 1px solid red; 
-    display: flex; 
+    /* border: 1px solid red; */
+    display: flex;
+    padding-bottom: 2%; 
 }
 
-.header-title { 
-    border: 1px solid green; 
-    display: flex; 
+.header-title {
+    /* border: 1px solid green; */
+    display: flex;
     max-width: 90%;
+}
+
+.header-title h2{
+    color: gray;
+}
+
+.header-title h1 { 
+    font-weight: bold; 
+    padding-right: 1.4rem;
+    padding-bottom: 1%;
 }
 
 .lambda-thumb {
     max-width: 80%;
     object-fit: contain;
-    align-items: flex-start; 
+    align-items: flex-start;
 }
-
