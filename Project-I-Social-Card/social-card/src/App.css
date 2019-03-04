@@ -150,6 +150,10 @@ p,h1,h2 {
   font-size: 1.4rem; 
 }
 
+a { 
+  text-decoration: none; 
+  color: black;
+}
 .app {
     width: 630px;
     font-family: Arial, Helvetica, sans-serif;
