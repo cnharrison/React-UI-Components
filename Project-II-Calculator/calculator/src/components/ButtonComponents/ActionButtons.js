@@ -18,6 +18,10 @@ const actions = [
   {
     name: "Divide",
     symbol: "÷"
+  },
+  {
+    name: "Clear",
+    symbol: "clear"
   }
 ];
 
@@ -31,3 +35,4 @@ function ActionButtons() {
   );
 }
 
+export default ActionButtons; 
